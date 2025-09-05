@@ -1,0 +1,40 @@
+.header-outer-container{
+    position: sticky;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+      background-color: black;
+}
+.header-outer-container ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    /* width: 1020px; */
+ 
+    align-items: center;
+      } 
+.header-container{
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.header-left{
+  float:left;
+  width: 45%;
+  margin-left: 50px;
+
+}
+.header-right{
+  float:right;
+  width: 10%;
+
+ margin-right: 0;
+}

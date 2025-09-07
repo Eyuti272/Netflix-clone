@@ -7,6 +7,13 @@
 .footer_inner_container{
     width: 80%;
 }
+.footer_icons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #fff;
+}
 .footer_data{
     display: flex;
     justify-content: space-between;

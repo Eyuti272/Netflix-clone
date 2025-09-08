@@ -1,6 +1,6 @@
-let API_KEY=process.env.VITE_API_KEY;
+let API_KEY=import.meta.env.VITE_API_KEY;
 
-export let requests={
+ let requests={
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchTopRatedMovies: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
@@ -11,3 +11,4 @@ export let requests={
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
   fetchTvShow: `/tv/popular?api_key=${API_KEY}&language=en-US&page=1`,
 }
+export default requests

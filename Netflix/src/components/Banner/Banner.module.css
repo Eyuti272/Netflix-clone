@@ -52,12 +52,17 @@
     color: #000;
     background-color: #c6c6c6;
 }
-.banner_fadeBottom{
-    height: 30vh;
-    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,0.91),#111);
+ .banner_fadeBottom{ 
+    
 
-
-
+height: 15vh;
+ background-image: linear-gradient(
+    180deg,
+    transparent 0%,
+    rgba(37, 37, 37, 0.4) 40%,
+    rgba(20, 20, 20, 0.8) 80%,
+    #111 100%
+  );
 
 }
-
+ 

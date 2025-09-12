@@ -52,7 +52,7 @@
     color: #000;
     background-color: #c6c6c6;
 }
- .banner_fadeBottom{ 
+  .banner_fadeBottom{ 
     
 
 height: 15vh;
@@ -64,5 +64,5 @@ height: 15vh;
     #111 100%
   );
 
-}
- 
+} 
+
